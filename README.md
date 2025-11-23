@@ -1,74 +1,87 @@
-**Project Title**
-A Clear and Concise Name for Your Project
+**Number Theory Function Library – Python
+Overview of the Project**
 
-**Overview**
-This project is designed to demonstrate a complete and functional application that solves a specific problem. It provides an efficient, user-friendly solution with a simple structure, making it easy to understand, extend, and integrate.
-The goal of this project is to help users perform tasks quickly while ensuring reliability, performance, and ease of use.
+This project is a complete collection of number-theory-based Python functions implemented as part of a Practical Lab Manual.
+It includes 40+ mathematical utility functions such as Euler’s Totient Function, Möbius Function, Prime Factorization, Digital Root, Modular Arithmetic, and more.
+The goal is to help students understand the logic behind mathematical algorithms while providing efficient, clean, and reusable Python implementations.
+These programs demonstrate core algorithmic skills such as factorization, recursion, modular arithmetic, sieve methods, trial division, and time-efficient computation.
 
 **Features**
-- User-friendly interface
-- Lightweight and efficient performance
-- Modular and easy-to-extend architecture
-- Secure handling of data
-- Cross-platform compatibility
-- Error handling and logging
-- Well-structured codebase
+
+- ✔️ 40+ number-theory functions
+- ✔️ Each program includes aim, methodology, description, code, and output
+- ✔️ Covers divisor functions, prime functions, digit analysis, modular arithmetic, sequence generation, and special number checks
+- ✔️ Optimized algorithms using √n logic, sieves, and efficient arithmetic
+- ✔️ Clean, modular, reusable code structure
+- ✔️ Suitable for academic lab manuals, assignments, and competitive programming
+- ✔️ User-friendly and beginner-friendly Python scripts
 
 **Technologies / Tools Used**
-- Frontend: HTML, CSS, JavaScript (edit if not relevant)
-- Backend: Node.js / Python / Java (pick your stack)
-- Database: MySQL / MongoDB / PostgreSQL
-- Version Control: Git, GitHub
-- Others: API integrations, Libraries, Frameworks (React, Flask, Express, etc.)
 
-**Installation & Setup**
-**1. Clone the Repository**
-git clone https://github.com/your-username/your-project.git
-cd your-project
+**Programming Language: Python 3
+Tools & Libraries:**
+- math module for mathematical operations
+- time module for execution analysis
+- Python built-ins like pow(), list comprehensions, loops, and conditionals
 
-**2. Install Dependencies**
-For Node.js:
-- npm install
+**Algorithms Used:**
+- Trial division
+- Sieve of Eratosthenes
+- Square-root divisor detection
+- Modular exponentiation
+- Recursion and iterative loops
 
-For Python:
-- pip install -r requirements.txt
+**Steps to Install & Run the Project**
+1. Clone this Repository
 
-**3. Configure Environment Variables**
-Create a .env file in the project root:
-PORT=5000
-DATABASE_URL=your_database_url
-API_KEY=your_api_key_if_any
+- git clone https://github.com/your-username/number-theory-lab.git
+  cd number-theory-lab
 
-**4. Run the Project**
+2. Install Python (if not already installed)
 
-For Node.js:
-- npm start
-For Python:
-- python app.py
+Download from: https://python.org
+Check version:
+- python --version
 
-The project will run at:
-- http://localhost:5000/
+3. Run Any Program
 
-**Testing Instructions**
-**1. Run Test Suite**
-For Node.js:
-- npm test
+Each function is saved as a separate .py file (e.g., euler_phi.py, mobius.py).
+To run:
 
-For Python (pytest):
-- pytest
+- python euler_phi.py
+Or:
+- python practical_01_euler_phi.py
 
-**2. Manual Testing**
+4. Run All Programs (if combined into one file)
+- python main.py
 
-- Open the application in your browser.
-- Test each feature described in the features section.
-- Check input validations and error messages.
-- Verify database operations (create, read, update, delete).
-- Confirm performance and UI responsiveness.
+**Instructions for Testing**
+1. Manual Testing
 
-**3. API Testing (If Applicable)**
+- Run each function file individually.
+- Provide sample inputs as shown in your lab manual (e.g., 10, 36, 122)
+- Compare output with expected values inside the PDF/lab notes.
 
-Use Postman or Thunder Client:
+2. Use Automated Test Scripts (Optional)
 
-- Import API collection
-- Test endpoints with sample payloads
-- Validate authentication, success, and error responses
+If you create a test script:
+- python test_functions.py
+
+3. Edge Case Testing
+
+Test special inputs:
+
+- 0 
+- 1
+- Negative numbers
+- Prime numbers
+- Large inputs (for performance testing)
+
+4. Mathematical Verification
+
+Use known results to verify correctness:
+
+- φ(10) = 4
+- μ(36) = 0
+- prime_factors(16) = [2,2,2,2]
+- digital_root(122) = 5
