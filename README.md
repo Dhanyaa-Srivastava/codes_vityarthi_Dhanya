@@ -6,13 +6,13 @@ This project is designed to demonstrate a complete and functional application th
 The goal of this project is to help users perform tasks quickly while ensuring reliability, performance, and ease of use.
 
 **Features**
-✔️ User-friendly interface
-✔️ Lightweight and efficient performance
-✔️ Modular and easy-to-extend architecture
-✔️ Secure handling of data
-✔️ Cross-platform compatibility
-✔️ Error handling and logging
-✔️ Well-structured codebase
+- ✔️ User-friendly interface
+- ✔️ Lightweight and efficient performance
+- ✔️ Modular and easy-to-extend architecture
+- ✔️ Secure handling of data
+- ✔️ Cross-platform compatibility
+- ✔️ Error handling and logging
+- ✔️ Well-structured codebase
 
 **Technologies / Tools Used**
 - Frontend: HTML, CSS, JavaScript (edit if not relevant)
