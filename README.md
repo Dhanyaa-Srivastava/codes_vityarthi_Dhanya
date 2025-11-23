@@ -88,9 +88,12 @@ Use known results to verify correctness:
 
 <img width="958" height="255" alt="Screenshot 2025-09-30 202347" src="https://github.com/user-attachments/assets/a9a20fa6-7c31-40f0-98f1-dd31ef1dfd1b" />
 
+
 <img width="1098" height="265" alt="Screenshot 2025-10-04 194808" src="https://github.com/user-attachments/assets/6727968a-06e9-44ba-9245-50761e67fd42" />
 
+
 <img width="785" height="156" alt="Screenshot 2025-10-04 202525" src="https://github.com/user-attachments/assets/93c176de-24ed-438f-8f38-0390c407df11" />
+
 
 <img width="941" height="197" alt="Screenshot 2025-10-04 205512" src="https://github.com/user-attachments/assets/2188a1f5-f1a0-4861-874b-fb32b90b6ce1" />
 
